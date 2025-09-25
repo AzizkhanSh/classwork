@@ -77,6 +77,11 @@ def is_even(num):
         return "odd"
         
 def main():
+    """
+    main function. Prompts the user for a number 
+    parameters: none
+    returns: none
+    """
     num = int(input("Enter a number: "))
     
     result = is_even(num)
@@ -84,7 +89,6 @@ def main():
     
 if __name__ == "__main__":
     main()
-
 
 
 
